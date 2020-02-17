@@ -1,9 +1,12 @@
 h1{
     color: #000;
+    /*
+    text-shadow: 1px 1px gray;*/
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
 }
 
 header{
-    overflow: hidden;
     padding: 20px;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -12,7 +15,7 @@ header{
 
 .nav-bar{
     overflow: hidden;
-    width: 100%;
+    width: 50%;
     background-color: #000;
     color: #fff;
 }
@@ -31,11 +34,18 @@ header{
 
 ul{
     list-style-type: none;
+    
 }
 
 ul a{
     text-decoration: none;
     color: #fff;
+    
+}
+
+ul li{
+    margin-bottom: 15px;
+    font-size: 24px;
 }
 
 ul li:hover{
@@ -50,6 +60,20 @@ footer{
     width: 40px;
     left:  50%;
     margin-left:  -20px;
+  }
+
+  .introduction{
+      font-family:'Squada One', cursive;
+      font-size: 40px;
+      color: #fff;
+  }
+
+  .info{
+      float: right;
+      width: 50%;
+      background-color: #000;
+      margin: 0 auto;
+      padding: 5px;
   }
 
 
