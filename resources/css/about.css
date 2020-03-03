@@ -1,3 +1,41 @@
 h1{
-    color: blue;
+    color: #2176ff;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.main{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #2176ff;
+    color: #fff;
+    padding: 14px;
+    margin-bottom: 10px;
+}
+
+.btn{
+        text-decoration:none;
+        border: 1px solid #5495ff;
+        border-radius: 2px;
+        color: #fff;
+        font-size: 25px;
+        font-weight: 400;
+        margin: 10px;
+        padding: 14px;
+        background-color: #2176ff;
+        font-family:;
+        text-transform: uppercase;
+        cursor: pointer;
+      
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #2176ff;
+    transition: color .1s ease-in, background-color .1s ease-in;
+}
+
+.btn:active{
+    font-size: 18px;
+    transition: font-size .1s ease-in-out;
 }
