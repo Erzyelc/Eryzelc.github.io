@@ -1,12 +1,11 @@
 h1{
     color: #000;
-    /*
-    text-shadow: 1px 1px gray;
-    */
-    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(25deg, #000, #fff);
+    font-family: 'Squada One', cursive;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
-    font-weight: bold;
     text-align: center;
+    font-size: 50px;
+    padding: 20px;
 }
 
 header{
@@ -19,34 +18,33 @@ header{
 .nav-bar{
     overflow: hidden;
     width: 20%;
-    background-color: #000;
+    background:linear-gradient(25deg, #000, #fff);
     color: #fff;
     position: absolute;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-left: 20px;
 }
 
 .nav-bar nav{
-    float: left;
-    width: 50%;
+    text-align: center;
+    width: 20%;
     padding: 10px;
     max-width: 100px;
+    height: 300px;
 }
 
-.nav-bar p{
-    float: right;
-    width: 50%;
-}
+
 
 ul{
     list-style-type: none;
-    
+    padding-top: 50px;
 }
+
 
 ul a{
     text-decoration: none;
     color: #fff;
-    
-}
+}  
 
 ul li{
     margin-bottom: 15px;
@@ -58,28 +56,32 @@ ul li:hover{
 }
 
 
+  .info{
+      float: right;
+      width: 50%;
+      background:linear-gradient(25deg, #000, #fff);
+      margin-right: 20px;
+      padding: 15px;
+      display: inline-block;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
 
-footer{
+  .introduction{
+    font-family:'Squada One', cursive;
+    font-size: 60px;
+    color: #fff;
+    padding: 15px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+  footer{
     position:  fixed;
     bottom:  30px;
     width: 40px;
     left:  50%;
-    margin-left:  -20px;
-  }
-
-  .introduction{
-      font-family:'Squada One', cursive;
-      font-size: 40px;
-      color: #fff;
-      padding: 5px;
-  }
-
-  .info{
-      float: right;
-      width: 70%;
-      background-color: #000;
-      margin: 0 auto;
-      padding: 5px;
+    margin-left: 20px;
   }
 
 
