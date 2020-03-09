@@ -84,4 +84,18 @@ ul li:hover{
     margin-left: 20px;
   }
 
+  @media only screen and (max-width: 500px) and (max-height: 1000px){
+    .info{
+        visibility: hidden;
+    }
+
+    .nav-bar{
+        width: 80%;
+    } 
+    
+    .nav-bar nav{
+        text-align: center;
+    }
+  }
+
 
