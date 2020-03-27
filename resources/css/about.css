@@ -31,10 +31,8 @@ body, html{
 
 
 .main{
-    margin-bottom: 20px;
-    background-color: #2176ff;
+    background-color: #87ceeb;
     color: #fff;
-    margin-bottom: 10px;
     display: block;
     overflow: hidden;
     background-attachment: fixed;
@@ -46,29 +44,27 @@ body, html{
     text-align: justify;
     padding: 20px;
     line-height: 1.5;
+    padding-bottom: 15px;
 }
 
-/*
 .btn{
-        margin-top: 20px;
-        text-decoration:none;
-        border: 1px solid #5495ff;
-        border-radius: 2px;
-        color: #fff;
-        font-size: 25px;
-        font-weight: 400;
-        margin: 10px;
-        padding: 14px;
-        background-color: #2176ff;
-        font-family:;
-        text-transform: uppercase;
-        cursor: pointer;
-      
+    margin-left: 400px;
+    text-decoration:none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 14px;
+    background-color: #c2c5cc;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: fixed;
+    
 }
 
 .btn:hover{
     background-color: #fff;
-    color: #2176ff;
+    color: #87ceeb;
     transition: color .1s ease-in, background-color .1s ease-in;
 }
 
@@ -76,4 +72,3 @@ body, html{
     font-size: 18px;
     transition: font-size .1s ease-in-out;
 }
-*/
